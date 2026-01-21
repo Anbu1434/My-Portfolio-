@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anbu-tech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.0/lottie.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <header>
+    <div class="hero-background">
+      <img src="./assets/spotlight.svg" alt="spotlight" class="spotlight">
+      <img src="./assets/grid-pattern.svg" alt="grid-pattern" class="gridpp">
+      <img src="./assets/spotlight-right.svg" alt="spotlight-right" class="spotlight-right">
+    </div>
+    <nav class="navbar">
+      <div class="logo">
+        <h5><span class="letter">A</span>folio</h5>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/_anbu._.ak_?igsh=eThtM3dpcDFrMXlw"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/Anbu1434"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/anbarasan-a-859651260/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.behance.net/anbarasanbaras3"><i class="fab fa-behance"></i></a>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <div class="container" data-aos="fade-up">
+      <h1 data-aos="fade-up" data-aos-delay="100">
+        <span class="highlight"> <span class="first">I'm</span> Anbarasan</span>
+        <img src="./assets/profile.svg" alt="Profile" class="profile-img" />,
+      </h1>
+      <h2 class="role" data-aos="fade-up" data-aos-delay="200">
+        <span class="highlight1">a Full Stack</span>
+        <span class="highlight2">Developer</span>
+      </h2>
+
+      <div class="resume-btn" data-aos="fade-up" data-aos-delay="400">
+        <a href="./assets/Resume.pdf" download class="resume-link">
+          My Resume
+          <img src="./assets/down-arrow.svg" alt="Download arrow">
+        </a>
+      </div>
+
+    </div>
+  </header>
+  <!-- About Section -->
+  <div class="abt" id="about">
+    <h1>About <span class="sub">Me</span></h1>
+  </div>
+
+  <section class="containerAbout" data-aos="fade-up">
+    <!-- Bio -->
+    <div class="bio-box">
+      <h2>Bio</h2>
+      <p>
+        I am Anbarasan, a passionate Full-Stack Developer and UI/UX designer. I thrive on building scalable web
+        applications and exploring the latest technologies.
+      </p>
+    </div>
+
+    <!-- Contact & Tagline -->
+    <div class="contact-card">
+      <img
+        style="width: 338.70px; height: 335.39px; left: 121.10px; top: -129.01px; position: absolute; transform: rotate(60deg); transform-origin: top left;overflow: hidden; "
+        src="./assets/emailbg.svg" />
+      <h3>Do you want to start a project together?</h3>
+      <button class="email-btn" onclick="copyEmail()">Copy my email address</button>
+      <span id="copy-msg" class="copy-message">Copied!</span>
+    </div>
+    <div class="tech-card">
+      <img style="width: 326px; height: 230px; position: absolute; opacity: 0.40" src="./assets/Background.svg" />
+      <h3>Tech enthusiast with a passion for development.</h3>
+      <div class="illustration"><img src="./assets/techbg.svg" alt="tech"></div>
+    </div>
+
+    <!-- Education -->
+    <div class="edu-wrapper">
+      <h1>Education</h1>
+      <div class="edu-cards">
+        <div class="edu-card">
+          <div class="icon"><img src="./assets/clg.svg" alt="clg"></div>
+          <div class="edu-info">
+            <h4>Bachelor of CSE</h4>
+            <p>Anand Institute of Higher Technology</p>
+            <span>2022–2026</span>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="icon"><img src="./assets/school.svg" alt="school"></div>
+          <div class="edu-info">
+            <h4>Board of Secondary Education</h4>
+            <p>Sathya Saai Matriculation High School</p>
+            <span>2020–2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section class="skills" id="skills" data-aos="fade-right">
+    <h1>Tech<span> Stack</span></h1>
+    <div class="scroll-wrapper">
+      <div class="scroll-track-wrapper">
+        <div class="scroll-track">
+          <!-- Original Skill Cards -->
+          <div class="skill-card"><img src="./assets/programming logo/python.svg" />
+            <div class="skill-card-text">Python</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/html.svg" />
+            <div class="skill-card-text">HTML</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/css.svg" />
+            <div class="skill-card-text">CSS</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/javascript.svg" />
+            <div class="skill-card-text">JavaScript</div>
+          </div>
+
+          <!-- Duplicate Skill Cards -->
+          <div class="skill-card"><img src="./assets/programming logo/python.svg" />
+            <div class="skill-card-text">Python</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/html.svg" />
+            <div class="skill-card-text">HTML</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/css.svg" />
+            <div class="skill-card-text">CSS</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/javascript.svg" />
+            <div class="skill-card-text">JavaScript</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill-scroll-container">
+      <div class="skill-scroll-track-wrap">
+        <div class="skill-scroll-track">
+          <div class="skill-card-box"><img src="./assets/programming logo/mongo.svg" />
+            <div class="skill-card-label">MongoDB</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/sql.svg" />
+            <div class="skill-card-label">MySQL</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/react.svg" />
+            <div class="skill-card-label">React</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/django.svg" />
+            <div class="skill-card-label">Django</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/nodejs.svg" />
+            <div class="skill-card-label">Node.js</div>
+          </div>
+
+          <!-- Duplicate cards for looping -->
+          <div class="skill-card-box"><img src="./assets/programming logo/mongo.svg" />
+            <div class="skill-card-label">MongoDB</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/sql.svg" />
+            <div class="skill-card-label">MySQL</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/react.svg" />
+            <div class="skill-card-label">React</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/django.svg" />
+            <div class="skill-card-label">Django</div>
+          </div>
+          <div class="skill-card-box"><img src="./assets/programming logo/nodejs.svg" />
+            <div class="skill-card-label">Node.js</div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-track-wrapper">
+        <div class="scroll-track">
+          <!-- Original Skill Cards -->
+          <div class="skill-card"><img src="./assets/programming logo/git.svg" />
+            <div class="skill-card-text">Git</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/figma.svg" />
+            <div class="skill-card-text">Figma</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/framer.svg" />
+            <div class="skill-card-text">Framer</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/canva.svg" />
+            <div class="skill-card-text">Canva</div>
+          </div>
+
+          <!-- Duplicate Skill Cards -->
+          <div class="skill-card"><img src="./assets/programming logo/git.svg" />
+            <div class="skill-card-text">Git</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/figma.svg" />
+            <div class="skill-card-text">Figma</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/framer.svg" />
+            <div class="skill-card-text">Framer</div>
+          </div>
+          <div class="skill-card"><img src="./assets/programming logo/canva.svg" />
+            <div class="skill-card-text">Canva</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== Recent Projects Section ===== -->
+  <section class="recent-projects" id="projects" data-aos="fade-up">
+    <div class="projects-header">
+      <h2>A small selection of <span>recent projects</span></h2>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="./assets/home.png" alt="Event Management System">
+        </div>
+        <h3>Event Management System</h3>
+        <p>
+          Built a responsive platform with event listings, registration, ticket booking, and attendee management for a
+          seamless user experience.
+        </p>
+        <div class="tech-stack">
+          <img src="./assets/js.svg" alt="JS">
+          <img src="./assets/tailwind.svg" alt="Tailwind">
+          <img src="./assets/django.svg" alt="Django">
+          <img src="./assets/sql.svg" alt="MySQL">
+        </div>
+        <a href="https://github.com/Anbu1434/Event-Management-System-" class="project-link">Check Live Site →</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="./assets/Card.png" alt="AI Travel Planner">
+        </div>
+        <h3>AI Travel Planner</h3>
+        <p>
+          Crafted with modern technology, it offers a mobile interface, interactive maps, and intelligent
+          recommendations for easy trip planning.
+        </p>
+        <div class="tech-stack">
+          <img src="./assets/native.svg" alt="JS">
+          <img src="./assets/tailwind.svg" alt="Tailwind">
+          <img src="./assets/tech.svg" alt="Tech">
+          <img src="./assets/mongodb.svg" alt="MongoDB">
+        </div>
+        <a href="https://github.com/Anbu1434/AI-Travel-Planner" class="project-link">Check Live Site →</a>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="./assets/oyo.png" alt="OYO Clone">
+        </div>
+        <h3>Log Classification</h3>
+        <p>
+          Automated system that classifies application logs by type and severity for faster monitoring and debugging.
+        </p>
+        <div class="tech-stack">
+          <img src="./assets/js.svg" alt="JS">
+          <img src="./assets/boot.svg" alt="Bootstrap">
+          <img src="./assets/django.svg" alt="Django">
+          <img src="./assets/sql.svg" alt="MySQL">
+        </div>
+        <a href="https://log-classification-frontend.vercel.app" class="project-link">Check Live Site →</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="./assets/system.png" alt="Document Deadline Management System">
+        </div>
+        <h3>Document Deadline Management System</h3>
+        <p>
+          A web-based system to organize documents, track deadlines, and send reminders for efficient task management.
+        </p>
+        <div class="tech-stack">
+          <img src="./assets/js.svg" alt="JS">
+          <img src="./assets/tailwind.svg" alt="Tailwind">
+          <img src="./assets/django.svg" alt="Django">
+          <img src="./assets/sql.svg" alt="MySQL">
+        </div>
+        <a href="#" class="project-link">Check Live Site →</a>
+      </div>
+    </div>
+  </section>
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2>My <span>Work Experience</span></h2>
+
+      <div class="experience-wrapper">
+        <!-- Card 1 -->
+        <div class="experience-card">
+          <img src="./assets/sde.svg" alt="SDE Logo" class="experience-icon" />
+          <div class="experience-content">
+            <h3>Software Development Engineer Intern</h3>
+            <p>Assisted in the development of a web-based platform using Django, enhancing interactivity.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact-cta" class="cta-section" data-aos="fade-up">
+    <div class="cta-container">
+      <h2>
+        Ready to take <span>your</span> digital presence to the next level?
+      </h2>
+      <p>
+        Let’s collaborate to elevate your brand. Schedule a free 1-on-1 strategy session or contact me directly below.
+      </p>
+
+      <div class="cta-buttons">
+        <a href="#book-session" class="cta-button primary">Book a 1-on-1 Session</a>
+        <a href="mailto:anbarasan0909@gmail.com" class="cta-button secondary">Send a Message</a>
+      </div>
+    </div>
+
+    <!-- Embedded Booking Section -->
+    <div id="book-session" class="booking-container" data-aos="fade-up">
+      <h3>Schedule Your 1-on-1 Session</h3>
+      <p>Pick a time that works best for you and let's talk about your goals.</p>
+
+      <!-- Calendly Embed -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/anbarasan0909/30min"
+        style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <p>© 2026 Anbarasan. All rights reserved.</p>
+  </footer>
+  <!-- Floating Chatbot -->
+  <div class="chatbot-container" id="chatbot-container">
+    <div class="chatbot-header">
+      <h3>💬 Ask Anbarasan</h3>
+      <span id="close-chat">&times;</span>
+    </div>
+
+    <div class="chatbot-body" id="chatbot-body">
+      <div class="bot-msg">
+        👋 Hi! I’m <strong>Anbarasan’s AI Assistant</strong> — how can I help you today?
+      </div>
+    </div>
+
+    <div class="chatbot-input">
+      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" />
+      <button id="send-btn">
+        <img src="./assets/send.svg" alt="Send" class="send-icon" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Floating Lottie Chat Icon -->
+  <div class="chat-float" id="chat-float">
+    <div id="lottie-chat"></div>
+  </div>
+  <div id="loader">
+  <h1 class="slogo">AnbuDev</h1>
+  </div>  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
