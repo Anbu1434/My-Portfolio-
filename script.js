@@ -163,4 +163,9 @@ document.addEventListener("keydown", e => {
 
 window.addEventListener("load", () => {
   document.getElementById("loader").style.display = "none";
+
+});
+
+document.addEventListener("contextmenu", e => {
+  e.preventDefault();
 });
