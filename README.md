@@ -25,7 +25,7 @@ Live Demo: [https://anbudev.vercel.app/](https://anbudev.vercel.app/)
 
 | Category          | Technologies                              |
 |-------------------|-------------------------------------------|
-| **Frontend**      | React, Next.js, TypeScript, Tailwind CSS, shadcn/ui |
+| **Frontend**      | Html,css,javascript
 | **Animations**    | Framer Motion, Lottie Files               |
 | **Backend/Chat**  | Python, Flask API                         |
 | **Deployment**    | Vercel                                    |
@@ -46,7 +46,6 @@ Python • Django • Node.js • PostgreSQL • MySQL • MongoDB • REST APIs
 | **AI Travel Planner**                | Interactive travel recommendations + map integration    | React, Python, AI APIs                  |
 | **Log Classification System**        | Real-time log type classification pipeline               | Python, Kafka, CatBoost, Streaming      |
 | **Document Deadline Manager**        | Track deadlines with smart reminders & notifications    | Django, Celery, PostgreSQL              |
-| **Employee Attrition Prediction**    | ML model to predict employee turnover                    | CatBoost, scikit-learn, Pandas          |
 
 More projects → [GitHub Repositories](https://github.com/Anbu1434?tab=repositories)
 
